@@ -1,0 +1,80 @@
+.EditVacation {
+    margin-top: 30px;
+   
+  }
+  
+  /* General form styling */
+  .EditVacation form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .EditVacation h2 {
+    text-align: center;
+    color: #3498db;
+  }
+  
+  .EditVacation label {
+    display: block;
+    margin-bottom: 5px;
+  
+  }
+  
+  /* Input styling */
+  .EditVacation input,
+  .EditVacation input[type="email"] {
+    width: 100%;
+    padding: 10px;
+  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #5b6f80;
+  }
+  
+  
+  /* Button styling */
+  .EditVacation button,
+  .EditVacation input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .EditVacation button:hover {
+    background-color: #396082;
+  }
+
+  .EditVacation .Cancel{
+    margin-top: 3px;
+    background-color: #7c8b96;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .EditVacation .Cancel:hover {
+    background-color: #494f55;
+  }
+  
+  .EditVacation div {
+    margin-bottom: 30px;
+  }
+  
+  .error {
+    color: red;
+  }
